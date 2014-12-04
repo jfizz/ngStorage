@@ -95,7 +95,7 @@
 
                         $rootScope.$apply();
                     }
-                });
+                }, false);
 
                 return $storage;
             }
